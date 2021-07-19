@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application Myuka</title>
+    <link rel="stylesheet" href="myuka.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Myuka</h1>
+    </header>
+    <nav>
+      <form action="#">
+        <label for="recherche-produit">Rechercher un produit :</label
+        ><input name="produit" id="recherche-produit" type="text" /><input
+          type="submit"
+          value="Rechercher"
+        />
+      </form>
+    </nav>
+    <main>
+      <section id="produit">
+        <h1><a href="https://www.lu.fr/prince">Prince Chocolat</a></h1>
+        <p>Code-barres : 7622210449283 (EAN / EAN-13)</p>
+        <p>Marque : Lu</p>
+      </section>
+      <section id="detail">
+        <div id="photo_produit">
+          <img
+            src="https://static.openfoodfacts.org/images/products/762/221/044/9283/front_fr.429.200.jpg"
+            alt="Prince Chocolat"
+          />
+        </div>
+        <section id="ingredients">
+          <h1>Liste des ingrédients</h1>
+          <ul>
+            <li>
+              céréales 50,7% (farine de <strong>blé</strong> 35%, farine de blé
+              complète 15,7%)
+            </li>
+            <li>sucre</li>
+            <li>huiles végétales (palme, colza)</li>
+            <li>cacao maigre en poudre 4,5%</li>
+            <li>sirop de glucose</li>
+            <li>amidon de blé</li>
+            <li>
+              poudre à lever (carbonate acide d'ammonium, carbonate acide de
+              sodium, diphpsphate disodique)
+            </li>
+            <li>
+              émulsifiant (<strong>lécithine de soja</strong>, lécithine de
+              tournesol)
+            </li>
+            <li>sel</li>
+            <li>lait écrémé en poudre</li>
+            <li>
+              <strong>lactose</strong> et <strong>protéines de lait</strong>
+            </li>
+            <li>arômes</li>
+            <li><strong>oeufs</strong> (traces)</li>
+          </ul>
+        </section>
+      </section>
+      <section id="extra_infos">
+        <section>
+          <h1>Valeurs nutritionnelles</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Information</th>
+                <th>quantité 100 g</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Matières grasses / Lipides</th>
+                <td>17 g</td>
+              </tr>
+              <tr>
+                <th>Acides gras saturés</th>
+                <td>5.6 g</td>
+              </tr>
+              <tr>
+                <th>Sucres</th>
+                <td>32 g</td>
+              </tr>
+              <tr>
+                <th>Sel</th>
+                <td>0.58 g</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h1>Conditionnement</h1>
+          <p>paquet 300 g | portion 20 g</p>
+          <p>1 film plastique à jeter, 1 étui carton à recycler</p>
+        </section>
+      </section>
+      <section id="logos">
+        <ul>
+          <li>
+            <img
+              src="https://static.openfoodfacts.org/images/misc/nutriscore-d.svg"
+              alt="nutri-score"
+            />
+          </li>
+          <li>
+            <img
+              src="https://static.openfoodfacts.org/images/icons/ecoscore-d.svg"
+              alt="eco-score"
+            />
+          </li>
+          <li>
+            <img
+              src="https://static.openfoodfacts.org/images/misc/nova-group-4.svg"
+              alt="nova"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer><a href="#">Crédits</a><a href="#">Mentions légales</a></footer>
+  </body>
+</html>
